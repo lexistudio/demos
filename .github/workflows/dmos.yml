@@ -41,3 +41,4 @@ jobs:
         remote_path: '/dist'
         password: ${{ secrets.FTP_PASSWORD }}
         sftpArgs: -o ConnectTimeout=5
+        sftp_only: true
