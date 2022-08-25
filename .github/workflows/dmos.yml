@@ -38,5 +38,6 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         server: ${{ secrets.FTP_SERVER }}
         local_path: './home/l/lomontin/lhab.ru/public_html/*'
-        sftp_only: true
+        remote_path: '/home/l/lomontin/lhab.ru/public_html'
+        sftp_only: false
         password: ${{ secrets.FTP_PASSWORD }}
