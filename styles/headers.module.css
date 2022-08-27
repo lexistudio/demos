@@ -1,0 +1,9 @@
+.headers {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  font: bold 20px/1 Arial, sans-serif;
+  text-transform: uppercase;
+}
