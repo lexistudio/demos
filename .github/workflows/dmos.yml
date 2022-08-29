@@ -31,4 +31,4 @@ jobs:
       with:
         server: lomontin.beget.tech
         username: lomontin_lhabs
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: LomontinDev270990@@@
