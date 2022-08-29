@@ -25,12 +25,10 @@ jobs:
       run: |
         npm install
         npm run build
-        mkdir -p tmp && cp -R dist tmp/test.json
-        ls tmp/test.json
     
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: lomontin.beget.tech
+        server: ${{ secrets.FTP_SERVER }}
         username: lomontin_lhabs
         password: LomontinDev270990@@@
