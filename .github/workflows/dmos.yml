@@ -13,8 +13,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     
-    before_script:
-      - mkdir tmp
+    script:
+    - mkdir tmp
 
     steps:
     - name: 🚚 Get latest code
