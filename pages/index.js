@@ -14,6 +14,9 @@ export default function Home() {
         <h1>
           Lhab ru - service in developer <Link href="/news">news demo pages</Link>
         </h1>
+        <p>
+          Settings deploy (CI/CD)
+        </p>
       </main>
     </div>
   )
