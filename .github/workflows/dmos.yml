@@ -26,10 +26,11 @@ jobs:
         npm run rm
         npm install
         npm run build
-        npm run tmp
     
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
+      run:
+        npm run tmp
       with:
         server: lomontin.beget.tech
         username: lomontin_lhabs
