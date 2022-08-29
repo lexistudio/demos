@@ -29,6 +29,6 @@ jobs:
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        server: lomontin.beget.tech
         username: lomontin_lhabs
         password: LomontinDev270990@@@
