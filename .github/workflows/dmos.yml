@@ -23,6 +23,7 @@ jobs:
 
     - name: 🔨 Build Project
       run: |
+        npm run rm
         npm install
         npm run build
         npm run tmp
