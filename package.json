@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
-    "rm": "rm -R tmp",
-    "tmp": "mkdir tmp && touch tmp/restart.txt"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "next": "12.2.5",

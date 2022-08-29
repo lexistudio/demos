@@ -12,6 +12,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
+    before_script:
+      - mkdir tmp
+
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
