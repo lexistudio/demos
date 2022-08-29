@@ -20,15 +20,12 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    
-    - name: tmp
-      script:
-        mkdir tmp
 
     - name: 🔨 Build Project
       run: |
         npm install
         npm run build
+        mkdir -p test
     
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
