@@ -12,7 +12,7 @@ export default function News() {
 
       <main>
         <h1>
-          Video pages <Link href='/'>Back home</Link>
+          Video pages - <Link href='/'>Back home</Link>
         </h1>
       </main>
     </div>

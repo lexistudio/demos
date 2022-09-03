@@ -12,7 +12,7 @@ export default function News() {
 
       <main>
         <h1>
-          About pages <Link href='/'>Back home</Link>
+          About Us pages - <Link href='/'>Back home</Link>
         </h1>
       </main>
     </div>

@@ -1,14 +1,13 @@
 import '../styles/normolize.css'
 import '../styles/globals.css'
-import Headers from '../components/Headers'
+import Layout from '../components/layout'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Headers />
-      <div className='container'>
+      <Layout>
         <Component {...pageProps} />
-      </div>
+      </Layout>
     </>
   )
 }
