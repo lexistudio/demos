@@ -3,9 +3,10 @@
 export default function handler(req, res) {
   res.status(200).json(
     [
-      { name: 'home', href: '/' },
-      { name: 'about us', href: '/about' },
-      { name: 'video', href: '/video' }
+      { name: 'Главная', href: '/' },
+      { name: 'Блоги', href: '/blog' },
+      { name: 'Видео', href: '/video' },
+      { name: 'Резюме', href: '/resume' }
     ]
   )
 }
