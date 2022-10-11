@@ -10,9 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>
+        <h1 className="title">
           Lhab ru
-          <span>Developer's island</span>
+          <span>Developer&apos;s island</span>
         </h1>
 
         <div className='color'>
