@@ -11,9 +11,11 @@ export default function News() {
       </Head>
 
       <main>
-        Video hostion in a developers
-        <h1>
-          Video pages - <Link href='/'>Back home</Link>
+        <h1 className='title'>
+          Video pages
+          <span>
+            <Link href='/'>Back home</Link>
+          </span>
         </h1>
       </main>
     </div>

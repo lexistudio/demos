@@ -1,5 +1,5 @@
 .headers {
-  border-bottom: 1px solid rgba(0,0,0,.05);
+  border-bottom: 1px solid rgb(0 51 153 / 5%);
   height: 50px;
   padding: 0 20px;
   display: flex;
@@ -10,10 +10,7 @@
 
 .sections {
   display: flex;
-}
-
-.sections__item {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 
 .nav {
@@ -24,10 +21,17 @@
 }
 
 .nav__item {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .nav__item a {
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 14px;
+  color: rgb(0 51 153 / 45%);
+  font-weight: normal;
+}
+
+.nav__item a:hover {
+  color: rgb(0 51 153 / 75%);
+  text-decoration: none;
 }

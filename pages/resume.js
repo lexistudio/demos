@@ -11,7 +11,9 @@ export default function News() {
       </Head>
 
       <main>
-        resume
+        <h1 className='title'>
+          resume
+        </h1>
       </main>
     </div>
   )

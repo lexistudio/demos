@@ -10,9 +10,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Lhab ru - service in developer
+        <h1 className='title'>
+          Lhab ru
+          <span>Developer's island</span>
         </h1>
+
+        <div className='color'>
+          <div className='color-one'></div>
+          <div className='color-two'></div>
+          <div className='color-three'></div>
+          <div className='color-four'></div>
+          <div className='color-five'></div>
+        </div>
       </main>
     </div>
   )

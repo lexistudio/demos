@@ -1,10 +1,7 @@
-body {
-  font: bold 16px/1.3 Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-h1 {
-  text-align: center;
-  padding: 20px 0;
+body {
+  font: bold 16px/1.3 'Questrial', sans-serif;
 }
 
 a {
@@ -20,4 +17,50 @@ a:hover {
   width: 1170px;
   padding: 0 20px;
   margin: auto;
+}
+
+.color {
+  height: 20px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.color div {
+  width: 20px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.color-one {
+  background: #586BA4;
+}
+
+.color-two {
+  background: #324376;
+}
+
+.color-three {
+  background: #F5DD90;
+}
+
+.color-four {
+  background: #F68E5F;
+}
+
+.color-five {
+  background: #F76C5E;
+}
+
+.title {
+  font-size: 45px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.title span {
+  display: block;
+  font-size: .3em;
+  text-transform: none;
 }

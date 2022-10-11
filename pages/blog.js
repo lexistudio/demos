@@ -11,8 +11,8 @@ export default function News() {
       </Head>
 
       <main>
-        <h1>
-          blog
+        <h1 className='title'>
+          blogs
         </h1>
       </main>
     </div>
