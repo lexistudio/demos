@@ -10,8 +10,8 @@ export default function Home() {
 
       <main>
         <div className='social'>
-          <a href='https://dzen.ru/lhab' target="_blank" className='social__item lg-dzen'></a>
-          <a href='https://www.youtube.com/@lhb27' target="_blank" className='social__item lg-youtube'></a>
+          <a href='https://dzen.ru/lhab' rel="noopener noreferrer" target="_blank" className='social__item lg-dzen'></a>
+          <a href='https://www.youtube.com/@lhb27' rel="noopener noreferrer" target="_blank" className='social__item lg-youtube'></a>
         </div>
       </main>
     </div>
