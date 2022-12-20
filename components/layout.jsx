@@ -1,6 +1,6 @@
 import Header from './Headers'
 
-const Layout = ({ children  })=>  {
+const Layout = ({ children }) =>  {
   return(
     <>
       <Header />

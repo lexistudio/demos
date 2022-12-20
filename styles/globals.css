@@ -19,38 +19,6 @@ a:hover {
   margin: auto;
 }
 
-.color {
-  height: 20px;
-  display: flex;
-  margin: 20px 0;
-}
-
-.color div {
-  width: 20px;
-  margin-right: 5px;
-  border-radius: 3px;
-}
-
-.color-one {
-  background: #586BA4;
-}
-
-.color-two {
-  background: #324376;
-}
-
-.color-three {
-  background: #F5DD90;
-}
-
-.color-four {
-  background: #F68E5F;
-}
-
-.color-five {
-  background: #F76C5E;
-}
-
 .title {
   font-size: 45px;
   line-height: 1.1;
@@ -63,4 +31,32 @@ a:hover {
   display: block;
   font-size: .3em;
   text-transform: none;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.social__item {
+  flex: 1;
+  margin: 20px 10px;
+  height: 230px;
+  box-sizing: border-box;
+  transition: opacity .1s linear;
+}
+
+.social__item:hover {
+  opacity: .6;
+}
+
+.lg-dzen {
+  background: #000000 url(../assets/img/dzen.png) no-repeat center;
+  background-size: auto 100%;
+}
+
+.lg-youtube {
+  background: #FF4B3E url(../assets/img/yu.png) no-repeat center;
+  background-size: auto 100%;
 }
