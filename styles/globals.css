@@ -52,11 +52,11 @@ a:hover {
 }
 
 .lg-dzen {
-  background: #000000 url(../assets/img/dzen.png) no-repeat center;
+  background: #000000 url(/dzen.png) no-repeat center;
   background-size: auto 100%;
 }
 
 .lg-youtube {
-  background: #FF4B3E url(../assets/img/yu.png) no-repeat center;
+  background: #FF4B3E url(/yu.png) no-repeat center;
   background-size: auto 100%;
 }
