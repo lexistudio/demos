@@ -14,7 +14,7 @@ a:hover {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   padding: 0 20px;
   margin: auto;
 }
@@ -59,4 +59,20 @@ a:hover {
 .lg-youtube {
   background: #FF4B3E url(/yu.png) no-repeat center;
   background-size: auto 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .social {
+    margin: 0;
+  }
+
+  .social__item {
+    margin: 5px 0;
+    width: 100%;
+    flex: none;
+  }
 }
