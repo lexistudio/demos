@@ -14,7 +14,8 @@ a:hover {
 }
 
 .container {
-  max-width: 1170px;
+  width: 100%;
+  max-width: 1432px;
   padding: 0 20px;
   margin: auto;
 }
@@ -75,4 +76,8 @@ a:hover {
     width: 100%;
     flex: none;
   }
+}
+
+.main {
+  background: linear-gradient(to bottom, #FBFBFB, #fff);
 }
