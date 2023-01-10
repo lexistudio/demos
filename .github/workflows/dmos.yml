@@ -37,6 +37,6 @@ jobs:
         to: ${{ secrets.TG_TO }}
         token: ${{ secrets.TG_TOKEN }}
         message: |
-          ${{ github.actor }} создан commit:${{ github.event.commits[0].message }}
+          ${{ github.actor }} создан commit: ${{ github.event.commits[0].message }}
             
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
