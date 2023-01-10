@@ -23,14 +23,14 @@ jobs:
       run: |
         npm install
         npm run build
-        echo '${{ toJSON(secrets) }}'
+        echo '${{ toJSON(PASSWORD) }}'
     
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: lomontin.beget.tech
         username: lomontin_lhabs
-        password: ${{ secrets.PASSWORD }}
+        password: ${PASSWORD}
     
     - name: send telegram message on push
       uses: appleboy/telegram-action@master
