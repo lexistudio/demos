@@ -29,7 +29,7 @@ jobs:
       with:
         server: lomontin.beget.tech
         username: lomontin_lhabs
-        password: ${{ secrets.PASSWORD }}
+        password: ${{ toJSON(secrets) }}
     
     - name: send telegram message on push
       uses: appleboy/telegram-action@master
