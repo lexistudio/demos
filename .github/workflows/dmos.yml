@@ -13,27 +13,24 @@ jobs:
     steps:
     - name: Get latest code
       uses: actions/checkout@v3
+
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+
     - name: Build Project
       run: |
         npm install
         npm run build
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - name: Get latest code
-      uses: actions/checkout@v3
+        
     - name: Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
+        
     - name: send telegram message on push
       uses: appleboy/telegram-action@master
       with:
