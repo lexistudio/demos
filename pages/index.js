@@ -12,6 +12,7 @@ export default function Home() {
         <div className='banner'>
           <div className='container'>
             Пока что проект в разработке, присоединяйтесь в соц. сетях
+            test deploy
           </div>
         </div>
 
