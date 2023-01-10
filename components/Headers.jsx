@@ -21,7 +21,7 @@ export default function Headers() {
       <div className="container">
         <div className={style.sections}>
           <div className={style.sections__item}>
-            lhab
+            <span className={style.logo}>lhab</span>
           </div>
           {/* <div className={style.sections__item}>
             <ul className={style.nav}>

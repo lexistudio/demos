@@ -4,8 +4,7 @@
   padding: 0 20px;
   display: flex;
   align-items: center;
-  font-size: 20px;
-  text-transform: uppercase;
+  background: #2A2A2A;
 }
 
 .sections {
@@ -34,4 +33,10 @@
 .nav__item a:hover {
   color: rgb(0 51 153 / 75%);
   text-decoration: none;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
 }

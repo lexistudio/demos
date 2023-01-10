@@ -1,12 +1,14 @@
-import TopTools from './TopTools'
 import Header from './Headers'
+import Footer from './Footer'
 
 const Layout = ({ children }) =>  {
   return(
     <>
-      <TopTools />
-      <Header />
-      {children}
+      <div className='wrapper'>
+        <Header />
+        {children}
+      </div>
+      <Footer />
     </>
   )
 }
