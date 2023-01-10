@@ -28,8 +28,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: lomontin.beget.tech
-        username: ${{ secrets.FTP_USERNAME }}
-        password: LomontinDev270990@@@
+        username: lomontin_lhabs
+        password: ${{ secrets.PASSWORD }}
     
     - name: send telegram message on push
       uses: appleboy/telegram-action@master
