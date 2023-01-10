@@ -23,7 +23,8 @@ jobs:
       run: |
         npm install
         npm run build
-        echo '${{ toJSON(main.secrets) }}'
+        echo '${{ toJSON(secrets) }}'
+        echo '${{ toJSON(variables) }}'
     
     - name: 📂 Deploy files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
