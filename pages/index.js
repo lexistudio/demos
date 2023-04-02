@@ -17,7 +17,6 @@ export default function Home() {
 
         <div className='container'>
           <div className='social'>
-            <a href='https://dzen.ru/lhab' rel="noopener noreferrer" target="_blank" className='social__item lg-dzen'></a>
             <a href='https://www.youtube.com/@lhb27' rel="noopener noreferrer" target="_blank" className='social__item lg-youtube'></a>
           </div>
         </div>
