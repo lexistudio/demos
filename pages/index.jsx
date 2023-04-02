@@ -9,12 +9,6 @@ export default function Home() {
       </Head>
 
       <main className='main'>
-        <div className='banner'>
-          <div className='container'>
-            Пока что проект в разработке, присоединяйтесь в соц. сетях
-          </div>
-        </div>
-
         <div className='container'>
           <div className='social'>
             <a href='https://www.youtube.com/@lhb27' rel="noopener noreferrer" target="_blank" className='social__item lg-youtube'></a>
