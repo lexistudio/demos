@@ -13,6 +13,34 @@ export default function Home() {
           <div className='social'>
             <a href='https://www.youtube.com/@lhb27' rel="noopener noreferrer" target="_blank" className='social__item lg-youtube'></a>
           </div>
+
+          <h1>В разработке</h1>
+          <h2>В разработке</h2>
+          <h3>В разработке</h3>
+
+          <p>В разработке...</p>
+
+          <div className="column">
+            <div className="column__12">column 12</div>
+
+            <div className="column__11">column 11</div>
+            <div className="column__1">column 1</div>
+
+            <div className="column__10">column 10</div>
+            <div className="column__2">column 2</div>
+
+            <div className="column__9">column 9</div>
+            <div className="column__3">column 3</div>
+
+            <div className="column__8">column 8</div>
+            <div className="column__4">column 4</div>
+
+            <div className="column__7">column 7</div>
+            <div className="column__5">column 5</div>
+
+            <div className="column__6">column 6</div>
+            <div className="column__6">column 6</div>
+          </div>
         </div>
       </main>
     </div>

@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+:root {
+  --col: 100px;
+  --gap: 30px;
+  --layout: 1200px;
+  --background: 244, 246, 251;
+  --ui-color: 0, 123, 251;
+  --grid: 255, 0, 0;
+}
+
 body {
-  background: #F1F4F5;
+  background: rgb(var(--background));
   font: bold 16px/1.3 'Questrial', sans-serif;
 }
 
@@ -10,7 +19,7 @@ html, body, .wrapper {
 }
 
 a {
-  color: rgb(100, 100, 255);
+  color: rgb(var(--ui-color));
   text-decoration: none;
 }
 
@@ -19,10 +28,10 @@ a:hover {
 }
 
 .container {
-  width: 100%;
-  max-width: 1432px;
-  padding: 0 20px;
+  width: var(--layout);
+  padding: 0 15px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .title {
@@ -80,18 +89,4 @@ a:hover {
   text-align: center;
   line-height: 50px;
   color: rgba(0,0,0,.3)
-}
-
-@media screen and (max-width: 900px) {
-  .container {
-    padding: 0 10px;
-    box-sizing: border-box;
-  }
-
-  .social__item {
-    width: 80px;
-    height: 80px;
-    flex: none;
-    margin-left: 10px;
-  }
 }

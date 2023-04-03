@@ -1,0 +1,79 @@
+.grid:before {
+  content: "";
+  width: 1170px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background: linear-gradient(to right, rgba(var(--grid), .1) 70px, transparent 70px);
+  background-size: 100px;
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.column * {
+  background: rgb(var(--ui-color));
+  color: #fff;
+  margin: 5px 15px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.column__12 {
+  width: 100%;
+}
+
+.column__11 {
+  width: calc(var(--col) * 11 - var(--gap));
+}
+
+.column__10 {
+  width: calc(var(--col) * 10 - var(--gap));
+}
+
+.column__9 {
+  width: calc(var(--col) * 9 - var(--gap));
+}
+
+.column__8 {
+  width: calc(var(--col) * 8 - var(--gap));
+}
+
+.column__7 {
+  width: calc(var(--col) * 7 - var(--gap));
+}
+
+.column__6 {
+  width: calc(var(--col) * 6 - var(--gap));
+}
+
+.column__5 {
+  width: calc(var(--col) * 5 - var(--gap));
+}
+
+.column__4 {
+  width: calc(var(--col) * 4 - var(--gap));
+}
+
+.column__3 {
+  width: calc(var(--col) * 3 - var(--gap));
+}
+
+.column__2 {
+  width: calc(var(--col) * 2 - var(--gap));
+}
+
+.column__1 {
+  width: calc(var(--col) * 1 - var(--gap));
+}
